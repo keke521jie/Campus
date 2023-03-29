@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+page {
+  background-color: #eee;
+}
+.mine {
+  width: 100%;
+  padding: 20rpx;
+}
+.mine .userinfo {
+  width: 100%;
+  border-radius: 10rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35rpx 0;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+.mine .userinfo .user_pic {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  margin-bottom: 20rpx;
+}
+.mine .userinfo .nickname {
+  font-size: 35rpx;
+}
+.mine .user_handle {
+  width: 100%;
+  border-radius: 10rpx;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+}
+.mine .item {
+  display: flex;
+  height: 90rpx;
+  border-bottom: 1rpx solid #eee;
+  font-size: 32rpx;
+  padding: 0 20rpx;
+  align-items: center;
+}
+.mine .item .icon {
+  margin-right: 10rpx;
+}
+.mine .item:last-child {
+  border-bottom: none;
+}
+.mine .quit {
+  display: flex;
+  height: 90rpx;
+  border-bottom: 1rpx solid #eee;
+  font-size: 32rpx;
+  padding: 0 20rpx;
+  align-items: center;
+  background-color: indianred;
+  color: #fff;
+  border-radius: 10rpx;
+}
+

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.hobby {
+  width: 100%;
+  padding: 20rpx;
+}
+.hobby .hobby_list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.hobby .hobby_list .hobby_item {
+  display: flex;
+  width: 177.5rpx;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+}
+.hobby .hobby_list .hobby_item .hobby_pic {
+  width: 155.5rpx;
+  height: 155.5rpx;
+}
+.hobby .hobby_list .hobby_item .hobby_name {
+  font-size: 30rpx;
+  margin-top: 10rpx;
+}
+

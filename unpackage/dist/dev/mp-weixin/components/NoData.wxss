@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.nodate {
+  width: 100%;
+}
+.nodate .img {
+  width: 100%;
+  height: 667rpx;
+}
+.nodate .nodate_img {
+  width: 100%;
+}
+

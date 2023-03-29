@@ -1,0 +1,1 @@
+<view class="nodate"><view class="img" style="{{'background:'+('url(http://localhost:3000/images/nodata.webp)')+';'+('background-size:'+('cover')+';')+('bacground-repeat:'+('no-repeat')+';')+('background-position:'+('center')+';')}}"></view></view>

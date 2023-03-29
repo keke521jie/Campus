@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.login {
+  width: 100%;
+  padding: 40rpx 20rpx;
+}
+.login .userinfo {
+  width: 100%;
+  border-radius: 10rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35rpx 0;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+.login .userinfo .user_pic {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  margin-bottom: 20rpx;
+}
+.login .userinfo .btn {
+  background-color: skyblue;
+  color: #fff;
+}
+.login .title {
+  font-size: 60rpx;
+  margin-bottom: 50rpx;
+  color: skyblue;
+  text-align: center;
+}
+.login .submit_btn,
+.login .quit {
+  background-color: skyblue;
+  color: #fff;
+  margin-bottom: 20rpx;
+}
+.login .quit {
+  background-color: pink;
+}
+

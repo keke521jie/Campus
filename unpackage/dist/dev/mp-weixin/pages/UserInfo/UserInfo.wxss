@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+page {
+  background-color: #eee;
+}
+.user_info_container {
+  width: 100%;
+  padding: 20rpx;
+}
+.user_info_container .userinfo {
+  width: 100%;
+  border-radius: 10rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35rpx 0;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+.user_info_container .userinfo .user_pic {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  margin-bottom: 20rpx;
+}
+.user_info_container .userinfo .nickname {
+  font-size: 35rpx;
+}
+.user_info_container .email {
+  font-size: 40rpx;
+  width: 100%;
+  background-color: #fff;
+  padding: 20rpx;
+  border-radius: 10rpx;
+}
+.user_info_container .email text {
+  font-size: 30rpx;
+}
+

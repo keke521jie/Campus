@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.hobbyinfo {
+  width: 100%;
+}
+.hobbyinfo .article_list {
+  padding: 10rpx 20rpx;
+}
+.hobbyinfo .article_list .article_item {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+  margin-bottom: 20rpx;
+}
+.hobbyinfo .article_list .article_item .author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.hobbyinfo .article_list .article_item .author .user_pic {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.hobbyinfo .article_list .article_item .author .author_name {
+  font-size: 30rpx;
+  margin-right: 20rpx;
+}
+.hobbyinfo .article_list .article_item .author .publish_date {
+  color: #999;
+}
+.hobbyinfo .article_list .article_item .content {
+  display: flex;
+  justify-content: space-between;
+}
+.hobbyinfo .article_list .article_item .content .left {
+  display: flex;
+  flex-direction: column;
+  width: 440rpx;
+  padding: 10rpx;
+}
+.hobbyinfo .article_list .article_item .content .left .title {
+  font-size: 35rpx;
+  font-weight: 700;
+  margin-bottom: 5rpx;
+}
+.hobbyinfo .article_list .article_item .content .left .primary_content {
+  font-size: 30rpx;
+}
+.hobbyinfo .article_list .article_item .content .img {
+  width: 250rpx;
+  height: 156.25rpx;
+}
+

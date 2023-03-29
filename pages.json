@@ -1,0 +1,145 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/Home/Home",
+			"style": {
+				"navigationBarTitleText": "校园社区"
+			}
+		},
+		{
+			"path": "pages/Mine/Mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/Register/Register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/Login/Login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, 
+		{
+			"path": "pages/UpdateUserInfo/UpdateUserInfo",
+			"style": {
+				"navigationBarTitleText": "修改个人信息"
+			}
+		}, 
+		{
+			"path": "pages/UpdatePwd/UpdatePwd",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+            "path" : "pages/Hobby/Hobby",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "寻找爱好"
+            }
+            
+        },
+		{
+            "path" : "pages/HobbyInfo/HobbyInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": ""
+            }
+            
+        }
+        ,{
+            "path" : "pages/EditHobby/EditHobby",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编辑文章"
+            }
+            
+        }
+        ,{
+            "path" : "pages/ArticleInfo/ArticleInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "阅读"
+            }
+            
+        }
+        ,{
+            "path" : "pages/UserInfo/UserInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户信息"
+            }
+            
+        }
+        ,{
+            "path" : "pages/Shop/Shop",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "淘物"
+            }
+            
+        }
+        ,{
+            "path" : "pages/PublishGoods/PublishGoods",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布商品"
+            }
+            
+        }
+        ,{
+            "path" : "pages/GoodsInfo/GoodsInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情"
+            }
+            
+        }
+        ,{
+            "path" : "pages/PublishNews/PublishNews",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布新鲜事"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/Home/Home",
+				"iconPath": "static/nav_icon/home.png",
+				"selectedIconPath": "static/nav_icon/home_sel.png"
+			},
+			{
+				"text":"淘物",
+			    "pagePath" : "pages/Shop/Shop",
+				"iconPath": "static/nav_icon/shopping.png",
+				"selectedIconPath": "static/nav_icon/shopping_sel.png"
+			},
+			{
+				"text": "爱好",
+				"pagePath": "pages/Hobby/Hobby",
+				"iconPath": "static/nav_icon/hobby.png",
+				"selectedIconPath": "static/nav_icon/hobby_sel.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/Mine/Mine",
+				"iconPath": "static/nav_icon/wode.png",
+				"selectedIconPath": "static/nav_icon/wode_sel.png"
+			}
+		]
+	}
+}

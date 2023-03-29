@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "淘物",
+  "usingComponents": {
+    "uni-fab": "/uni_modules/uni-fab/components/uni-fab/uni-fab",
+    "slide-nav": "/components/SlideNav",
+    "no-data": "/components/NoData"
+  }
+}

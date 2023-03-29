@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.edit_hobby {
+  width: 100%;
+  padding: 20rpx;
+}
+.edit_hobby .title {
+  margin-bottom: 20rpx;
+}
+.edit_hobby .inp {
+  margin-bottom: 20rpx;
+}
+

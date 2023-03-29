@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.publish_goods {
+  width: 100%;
+  padding: 20rpx;
+}
+.publish_goods .title {
+  margin-bottom: 20rpx;
+}
+.publish_goods .inp {
+  margin-bottom: 20rpx;
+}
+
